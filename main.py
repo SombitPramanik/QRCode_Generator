@@ -61,7 +61,7 @@ class QRCodeGenerator(QMainWindow):
         )
         if file_path:
             pdf_data = self.extract_pdf_data(file_path)
-            qr_data = "QR code created by sombitpramanik help of ChatGPT"
+            qr_data = "The Modern Diagnostic Centre,Hatishal, Jiakhali PIN - 721641,Purba Mednipur,MOB : 9732749877 ,Whatasapp : 9732019100"
             self.generate_qr_code(pdf_data + qr_data, "pdf_qr_code.png")
 
     def show_url_input(self):
@@ -107,7 +107,7 @@ class QRCodeGenerator(QMainWindow):
     def generate_qr_with_url_and_pdf(self, url, pdf_file_path):
         pdf_data = self.extract_pdf_data(pdf_file_path)
         qr_pdf_data = (
-            f"QR code created by sombit pramanik help of ChatGPT\n{pdf_data}\n"
+            f"The Modern Diagnostic Centre,Hatishal, Jiakhali PIN - 721641,Purba Mednipur,MOB : 9732749877 ,Whatasapp : 9732019100\n{pdf_data}\n"
         )
         qr_url_data = url
         self.generate_qr_code(qr_pdf_data, "pdf_url_qr_code.png")

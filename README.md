@@ -19,4 +19,4 @@ This is a simple QR Code Generator application built using Python and PyQt5. The
     pip install -r requirements.txt
 
 2. Assets :
-    Check out the GitHub Assets section for the pre build .EXE Files 
+    Check out the GitHub  Release/Assets section for the pre build .EXE Files 

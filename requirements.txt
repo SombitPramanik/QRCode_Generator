@@ -1,0 +1,4 @@
+qrcode
+PyPDF2
+PyQt5
+reportlab
